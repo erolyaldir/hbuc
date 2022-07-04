@@ -22,5 +22,6 @@ StreamReader
 	-Migrationlar bu projede bulunuyor
 ELTProces
 	-Uygula cron job ile 5dkda bir verileri Redise yazıyor.Süre appsettingden değiştirilebilir.
+	-CONJOB 5 ve 5in KATLARINDA TETİKLENDİĞİ İÇİN İLK YÜKLEME İÇİN BEKLEMEK GEREKİYOR(sonradan fark ettim)
 RecommendationAPI
 	

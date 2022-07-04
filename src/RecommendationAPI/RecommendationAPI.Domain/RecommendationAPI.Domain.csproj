@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="StackExchange.Redis" Version="2.6.48" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\ETLProcess\ETLProcess.Entities\ETLProcess.Entities.csproj" />
+    <ProjectReference Include="..\..\HBUC\HBUC.Framework\HBUC.Framework.csproj" />
+    <ProjectReference Include="..\RecommendationAPI.Entities\RecommendationAPI.Entities.csproj" />
+  </ItemGroup>
+
+</Project>
